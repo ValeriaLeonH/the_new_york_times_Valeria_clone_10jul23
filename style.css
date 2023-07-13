@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sansita+Swashed:wght@600&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
 .navbar{
   position: fixed;
@@ -64,4 +67,74 @@ a{
 .display_flex{
   display: flex;
 }
+
+.main-title{
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.img-top{
+  width: 59.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-pic{
+  width: 100%;
+}
+
+.info-pic{
+  font-family: 'Roboto Slab', serif;
+  color: gray;
+  width: 100%;
+  align-self: flex-start;
+  font-size: 0.9rem;
+}
+
+.Rick-Friedman{
+  font-size: 0.8rem;
+  color: darkgrey;
+}
+
+.actual-article{
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.div100{
+  width: 34rem;
+}
+
+.autor-name-text{
+  font-family:'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.autor-name{
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  color: black;
+}
+
+.autor-name:hover{
+  text-decoration: none;
+}
+
+.social-media-bar{
+  height: 3rem;
+  width: 33rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
